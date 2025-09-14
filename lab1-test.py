@@ -31,10 +31,10 @@ class TestMath(unittest.TestCase):
         self.assertEqual(sum_of_2([7, 3, 2, 56], 6), [1, 2])            # нет подходящих чисел в массиве
 
     def test_6_negative(self):
-        self.assertEqual(sum_of_2([], 0), [0, 1])                        # недостаточно элементов в массиве 
+        self.assertEqual(sum_of_2([1], 0), [0, 1])                        # недостаточно элементов в массиве
 
     def test_7_negative(self):
-        self.assertEqual(sum_of_2([3, 3], 6), [0, 1])                   # в массиве есть не int-овые элементы (string)
+        self.assertEqual(sum_of_2(['456', 3], 6), [0, 1])                   # в массиве есть не int-овые элементы (string)
 
 
 

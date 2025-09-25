@@ -9,6 +9,3 @@ def sum_of_2(nums, target):
                 return res
     return None                                                 # None, когда не нашлись подходящие по условию числа в массиве
 
-list = [2, 7, 11, 15]
-print (sum_of_2(list, 9))
-

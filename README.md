@@ -1,2 +1,2 @@
 # 2025-python-lab1
-by nastya pirogova
+Anastasia Pirogova, P3121
